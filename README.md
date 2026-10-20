@@ -6,8 +6,23 @@ A list of programming tutorials in which aspiring software developers learn how 
 
 To get started, simply fork this repo. Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
+## About This Standalone Edition
+
+- **Main repository:** [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning)
+- **Based on version:** upstream commit `0dd368f82006b32dea4b057ae70a966a1a4424ba` (snapshotted 2026-10-20; upstream HEAD dated 2026-10-19)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - `.github/dependabot.yml` — weekly GitHub Actions dependency updates
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for contributions (upstream link-rot, stale-prs and validate-pr workflows kept as-is)
+  - `.editorconfig` — standard editor settings (UTF-8, LF, 2-space indent)
+- **Credit & licence:** All original work belongs to practical-tutorials and the upstream contributors. Licence is preserved unchanged — see `LICENSE.md` (MIT). This edition adds the enhancements listed above only.
+
 ## Table of Contents:
 
+- [About This Standalone Edition](#about-this-standalone-edition)
 - [C#](#c)
 - [C/C++](#cc)
 - [Clojure](#clojure)
